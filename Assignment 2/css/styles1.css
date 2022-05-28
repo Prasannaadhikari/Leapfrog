@@ -254,13 +254,118 @@ table> th> td:hover{
 }
 
 .cardc{
-    height: 250px;
-    width: 200px;
-    background-color: rgb(245, 238, 238);
+    height: 300px;
+    width: 220px;
+    background-color: rgb(247, 247, 247);
     margin: 20px;
     float: left;
+    border-radius: 10px;
+    border: 2px rgb(162, 138, 138);
 }
 
 .cardc#one{
     margin-left: 0;
+}
+
+.image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.sm{
+    float: right;
+    margin-top: -65px;
+    margin-right: 55px;
+    font-size: 15px;
+}
+
+.test:after {
+    content: '\2807';
+    font-size: 20px;
+    float: right;
+    margin-top: -70px;
+}
+
+.img1{
+    width: 220px;
+    height: 190px;
+    margin-top: -8px;
+}
+
+.image1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: -20px;
+    margin-left: -13px;
+}
+
+.comment{
+    height: 25px;
+    width: 165px;
+    border-radius: 30px;
+    background-color: white;
+    float: right;
+    margin-top: -53px;
+    margin-right: 5px;
+    border: 0 none;
+}
+
+.img2{
+    width: 220px;
+    height: 200px;
+}
+
+.cardc#two{
+    height: 270px;
+}
+
+.img3{
+    width: 40px;
+    margin-left: 90px;
+    margin-top: -25px;
+}
+
+.textm{
+    text-align: center;
+    font-weight: 500;
+    margin: 3px;
+}
+
+.home{
+    background-color: rgb(54, 187, 54);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 7px;
+    color: white;
+    border: 0 none;
+}
+
+.textt{
+    padding: 3px;
+    margin-left: 4px;
+}
+
+.image4{
+    height: 170px;
+    width: 220px;
+}
+
+.texttt{
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+.cmt{
+    height: 25px;
+    width: 76px;
+    float: right;
+    margin-top: -22px;
+    margin-right: 2px;
 }
