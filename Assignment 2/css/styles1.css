@@ -3,7 +3,7 @@
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
-	font: roboto;
+	font: "roboto";
 }
 label.logo{
 	font-family: sans-serif;
@@ -161,18 +161,17 @@ table> th> td:hover{
     display: inline-block;
 }
 
+.tdf{
+    background-color: rgb(117, 86, 209);
+    color: white;
+}
+
 .div3{
     clear: both;
     font-size: 30px;
     font-weight: 700;
     padding-top: 50px;
 }
-
-.div3.form.input[type="checkbox"] {
-    width: 45px;                         /* Set width */
-    height: 45px;                        /* Set height */
-    clip-path: circle(46% at 50% 50%);   /* Set the clip path of circle*/
-  }
 
 .radiol{
     width: 30%;
@@ -202,3 +201,66 @@ table> th> td:hover{
     margin-bottom: 50px;
 }
 
+.ber{
+    margin-left: 500px;
+    margin-top: -350px;
+}
+
+.tdi{
+    width: 100px;
+    height: 80px;
+}
+.tdf#one{
+    width: 100px;
+    height: 80px;
+}
+.tg {
+    /* border-collapse:collapse;
+    border-spacing:0; */
+    width: 100%;
+}
+.tg td{
+    border-color:black;
+    border-style:solid;
+    /* border-width:1px; */
+    font-size:20px;
+  overflow:hidden;
+}
+
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-0lax{
+    text-align:left;
+    vertical-align:top;
+}
+
+.tg .tg-0lax1{
+        text-align:left;
+        vertical-align:top;
+        font-weight: 700;
+        font-size: 20px;
+}
+
+.ro{
+    background-color: rgb(240, 232, 232);
+}
+
+.cardc{
+    height: 250px;
+    width: 200px;
+    background-color: rgb(245, 238, 238);
+    margin: 20px;
+    float: left;
+}
+
+.cardc#one{
+    margin-left: 0;
+}
