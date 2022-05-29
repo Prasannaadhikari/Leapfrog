@@ -84,13 +84,6 @@ label.logo{
     margin-top: 3%;
 }
 
-.div2{
-    margin-top: 3%;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 3%;
-}
-
 table, th, td{
     border: 1px solid rgb(154, 139, 139);
     border-collapse: collapse;
@@ -201,7 +194,16 @@ table> th> td:hover{
     margin-bottom: 50px;
 }
 
+.div2{
+    margin-top: 3%;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 3%;
+    clear: both;
+}
+
 .ber{
+    clear: both;
     margin-left: 500px;
     margin-top: -350px;
 }
@@ -368,4 +370,37 @@ table> th> td:hover{
     float: right;
     margin-top: -22px;
     margin-right: 2px;
+}
+
+.css1{
+    float: right;
+    margin-top: -350px;
+}
+.custom{
+    border: 1px solid rgb(205, 203, 203);
+    height: 150px;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.custom#one{
+    background-color: rgb(111, 46, 180);
+    color: white;
+}
+
+.h41{
+    padding: 10px;
+    font-size: 22px;
+}
+
+.h66{
+    float: right;
+    margin-top: -45px;
+    padding: 20px;
+}
+
+.cmm{
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 18px;
 }
