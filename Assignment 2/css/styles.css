@@ -3,7 +3,7 @@
 	margin: 0;
 	text-decoration: none;
 	list-style: none;
-	font: roboto;
+	font: "roboto";
 }
 label.logo{
 	font-family: sans-serif;
@@ -75,16 +75,27 @@ label.logo{
 	height: 50px;
 	width: 150px;
 	border-radius: 10px;
-	/* float: left; */
 	padding: 25px;
 	margin: 15px;
 	display: inline-block;
 }
-r1{
+.r1{
 	float: left;
+}
+
+.r2{
+	float: left;
+}
+
+.secdiv{
+	clear: both;
+	margin-top: 50px;
 }
 .rectangle.one{
 	background-color: #7749F8;
+}
+.tpl{
+	clear: both;
 }
 .rectangle.two{
   background-color: #5227CC;
@@ -155,33 +166,54 @@ r1{
 	font-weight: 700;
 }
 
+.tp1{
+	margin: 10px 20px;
+	font-weight: 700;
+}
+
+.tp2{
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
 .v1{
 	float: left;
 }
 
 .b1{
-	margin : 12px;
+	margin : 20px;
 	width: 50%;
-	display: inline-block;
-	float: left;
 	font-size: 20px;
+	float: left;
 }
 
 .b2{
+	margin: 30px 10px;
 	font-size: 20px;
-	margin: 35px;
-	margin-left: 50px;
+}
+
+del {
+	text-decoration: line-through;
+  }
+
+ins, b{
+	text-decoration: underline;
 }
 
 .b3{
+	clear: both;
 	font-size: 20px;
 	margin: 10px;
+	margin-top: 40px;
 }
 
+.main_text1#one{
+	margin-left: 150px;
+}
 .t1{
 	font-size: 30px;
 	font-weight: bold;
-	margin-bottom: 20px;	
+	margin-bottom: 20px;
+	margin-top: 40px;	
 }
 
 .t2{
@@ -215,6 +247,34 @@ r1{
 	margin-left: 170px;
 	margin-top: 10px;
 	margin-right: 180px;
+}
+
+.button111{
+	height: 20px;
+	width: auto;
+	border: 2px solid grey;
+	float: left;
+	padding: 10px 20px;
+	margin: 20px 0;
+	margin-bottom: 0;
+	border-radius: 4px;
+}
+
+.button111#one{
+	margin-left: 10px;
+}
+
+.button111#two{
+	color: rgba(207, 29, 207, 0.836);
+}
+
+.b5{
+	clear: both;
+	font-size: 20px;
+	margin-left: 15px;
+	float: left;
+	width: 50%;
+	margin-bottom: 60px;
 }
 
 .mid-item{
