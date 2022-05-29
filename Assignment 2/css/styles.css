@@ -192,6 +192,10 @@ label.logo{
 	font-size: 20px;
 }
 
+.b22{
+	float: left;
+	margin: 10px 20px;
+}
 del {
 	text-decoration: line-through;
   }
@@ -245,8 +249,8 @@ ins, b{
 }
 .main_text2{
 	text-align: left;
-	margin-left: 170px;
-	margin-top: 10px;
+	margin-left: 190px;
+	margin-top: 20px;
 	margin-right: 180px;
 }
 
@@ -285,13 +289,13 @@ ins, b{
 .mid-item1{
 	margin: 20px 200px;
 	width: 15%;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 	font-size: 25px;
 }
 
 .mid-item.button{
 	height: 25px;
-	margin-left: 30px;
+	margin-left: 40px;
 	padding: 20px;
 	border-radius: 5px;
 	font-size: 15px;
@@ -301,24 +305,41 @@ ins, b{
 }
 
 .mid-item.button.one{
-	margin: 10px;
+	margin: 10px 50px;
 	background-color: #7749F8;
+	font-weight: 700;
 }
 
 .mid-item.button.two{
-	margin: 10px;
+	margin: 10px 50px;
 	background-color: #5533b3;
+	font-weight: 700;
 }
 
 .mid-item.button.three{
-	margin: 10px;
+	margin: 10px 50px;
 	background-color: #5f47a0;
+	font-weight: 700;
 }
 
+.brrr{
+	float: right;
+	margin-top: -200px;
+	margin-right: 800px;
+}
 .last-item{
-	float: left;
+	margin-top: -20px;
+	margin-bottom: 40px;
+	margin-left: 40px;
 }
 
+.brrr#one{
+	margin-top: -150px;
+}
+
+.last-item#zero{
+	font-size: 25px;
+}
 .last-item.button{
 	height: 25px;
 	margin-left: 30px;
@@ -329,8 +350,32 @@ ins, b{
 	border: 0;
 	text-align: center;
 	clear: both;
+	font-weight: 700;
 }
 
+.last-item.button#two{
+	background-color: #7749F8;
+	font-weight: 700;
+}
+
+.last-item.button#four{
+	background-color: #4c4343;
+	margin-left: -280px;
+}
+
+.last-item.button#three{
+	border: 1px solid #4c4343;
+	color: #4c4343;
+	margin-left: -280px;
+}
+.last-item.button#one{
+	border: 1px solid #7749F8;
+	background-color: white;
+	color: #7749F8;
+	padding-top: -5px;
+	font-weight: 700;
+	text-align: center;
+}
 .b4{
 	float: left;
 	width: 15%;
