@@ -181,9 +181,10 @@ label.logo{
 
 .b1{
 	margin : 20px;
-	width: 50%;
+	width: 40%;
 	font-size: 20px;
 	float: left;
+	margin-bottom: 30px;
 }
 
 .b2{
@@ -203,7 +204,7 @@ ins, b{
 	clear: both;
 	font-size: 20px;
 	margin: 10px;
-	margin-top: 40px;
+	margin-top: 70px;
 }
 
 .main_text1#one{
@@ -240,7 +241,7 @@ ins, b{
 }
 
 .b2{
-	float: left;
+	float: right;
 }
 .main_text2{
 	text-align: left;
