@@ -55,3 +55,15 @@ padding: 3%;
     background-color: #23222F;
     width: 100%;
 }
+
+.viewa{
+    margin-left: 45%;
+    margin-top: 0;
+    clear: both;
+    color: white;
+    width: 5%;
+    padding: 1% 2%;
+    background-color: rgb(54, 51, 216);
+    border-radius: 4px;
+    font-weight: 700;
+}
