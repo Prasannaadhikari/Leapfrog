@@ -1,0 +1,16 @@
+.head{
+    padding: 50px;
+    padding-bottom: 20px;
+    background-color: rgb(245, 246, 247);
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 384px){
+    .head{
+        padding: 1%;
+        width: 100%;
+        margin: 0;
+        padding: 4%;
+    }
+}

@@ -1,7 +1,3 @@
-@media screen and (min-width: 384px){
-
-
-}
 .nav1{
         float: left;
 }
@@ -265,4 +261,189 @@ padding-right: 3%;
 .p1{
     float: left;
     padding: 0% 5%;
+}
+
+
+@media screen and (max-width: 1200px){
+    .home{
+        clear: both;
+        padding-top: 4%;
+        align-items: center;
+    }
+
+    /* .home1#last{
+        clear: both;
+        margin: 5% 0%;
+    } */
+
+    .webapp{
+        width: 30%;
+        padding: 7% 2%;
+        float: left;
+        margin-left: 8%;
+    }
+
+    .webapp#one{
+        clear: both;
+    }
+
+    .align#two{
+        width: 110%;
+    }
+
+    .blogi1{
+        margin: 0% 7%;
+    }
+
+    .shirt{
+        width: 100%;
+    }
+
+    .date{
+        margin-left: -52%;
+    }
+
+    .blogi1#last{
+        clear: both;
+    }
+
+    .foot{
+        width: 100%;
+    }
+
+    .p1#mob{
+        margin-left: -10%;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    body{
+        width: 200%;
+    }
+    
+    .nav1{
+        padding: 0% 4%;
+        margin-top: 7%;
+    }
+
+    .home{
+        display: inline-block;
+        margin: 0;
+    }
+
+    .home1{
+        float: left;
+        list-style-type: none;
+        font-size: 18px;
+        font-weight: 700;
+        color: grey;
+        margin-left: -3%;
+        margin-top: 1%;
+    }
+    .align{
+        text-align: center;
+        width: 100%;
+        padding: 5% 5%;
+    }
+
+    .buttondiv{
+        padding: 1% 1%;
+    }
+
+    .align2{
+        float: none;
+        width: 80%;
+        /* margin-top: -40%; */
+        padding: 0%;
+        margin-left: 1%;
+    }
+
+    .butto1{
+        padding: 2% 10%;
+    }
+    .align#one{
+        padding: 20px;
+        align-items: center;
+        margin-right: 10%;
+    }
+
+    .webapp{
+        /* margin-left: 50%; */
+        float: none;
+        align-items: center;
+        padding: 20px 10px;
+        margin: 0% 4%;
+        width: auto;
+        margin-right: 50px;
+    }
+
+    .midhead{
+        text-align: center;
+    }
+
+    .middesc{
+        clear: both;
+    }
+
+    .desc2{
+        width: 50%;
+        margin-left: -10%;
+        margin-bottom: 5%;
+    }
+
+    .blogi1{
+        clear: both;
+        width: 105%;
+    }
+
+    .date{
+        margin-left: -40%;
+        padding: 0;
+    }
+
+    .t1{
+        margin-left: 19%;
+        text-align: left;
+        width: 55%;
+    }
+
+    .desc11{
+        margin-left: 19%;
+        text-align: left;
+        width: 55%;
+    }
+
+    .viewa{
+        width: 10%;
+        margin-top: 20px;
+    }
+
+    .foot1{
+        clear: both;
+        width: 105%;
+    }
+
+    .p1{
+        float: left;
+        padding: 2% 12%;
+        margin: 0 2%;
+    }
+
+    .align#two{
+        margin-left: 5%;
+        width: 100%;
+    }
+
+    .p1#mob{
+        clear: both;
+    }
+
+    .mob{
+        padding: 0% 10%;
+    }
+
+    .foot{
+        width: 100%;
+    }
 }
