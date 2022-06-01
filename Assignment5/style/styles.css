@@ -199,7 +199,8 @@ hr{
     border-radius: 4px;
 }
 
-.active{
+.activee{
+    color: white;
     border-bottom-color: transparent;
     color: rgb(125, 122, 122);
 }
