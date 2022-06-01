@@ -30,6 +30,14 @@
     margin-right: 20px;
 }
 
+.cross{
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
 .align{
     padding: 100px 120px;
     float: left;
@@ -178,11 +186,12 @@ color: #797979;
 }
 
 .blogi1{
-    width: 32%;
+    width: 33%;
     float: left;
     padding-top: 2%;
     margin: 0;
 }
+
 
 .date{
     margin-left: -280px;
@@ -263,19 +272,75 @@ padding-right: 3%;
     padding: 0% 5%;
 }
 
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: -10px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
+}
+
+.bar{
+    width: 20px;
+    height: 5px;
+    background-color: #3B3950;
+    margin-top: 2px;
+}
 
 @media screen and (max-width: 1200px){
+    .checkbtn{
+        display: block;
+    }
+    
     .home{
         clear: both;
+        display: block;
         padding-top: 4%;
         align-items: center;
+    }
+
+    .home1{
+        clear: both;
+        margin-left: -110%;
+        margin-top: 2%;
     }
 
     /* .home1#last{
         clear: both;
         margin: 5% 0%;
     } */
+    .home{
+        display: none;
+        margin: 0 30%;
+    }
 
+    .cross{
+        display: none;
+        position: absolute;
+        right: 10%;
+        z-index: 2;
+        margin-top: 11%;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #check:checked~.checkbtn{
+        display: none;
+    }
+    #check:checked~.cross{
+        display: block;
+    }
+    #check:checked~.home{
+        display: block;
+        left:0;
+    }
+    
     .webapp{
         width: 30%;
         padding: 7% 2%;
@@ -288,7 +353,8 @@ padding-right: 3%;
     }
 
     .align#two{
-        width: 110%;
+        box-sizing: border-box;
+        width: auto;
     }
 
     .blogi1{
@@ -308,16 +374,27 @@ padding-right: 3%;
     }
 
     .foot{
-        width: 100%;
+        box-sizing: border-box;
+        width: auto;
     }
 
     .p1#mob{
         margin-left: -10%;
         margin-top: 15px;
     }
+
+    .copyr{
+        box-sizing: border-box;
+        width: auto;
+    }
 }
 
 @media screen and (max-width: 576px){
+    .checkbtn{
+        display: block;
+        margin-top: 5%;
+    }
+
     body{
         width: 200%;
     }
@@ -327,13 +404,40 @@ padding-right: 3%;
         margin-top: 7%;
     }
 
+    nav ul{
+        text-align: center;
+        transition: all .5s;
+    }
     .home{
-        display: inline-block;
-        margin: 0;
+        display: none;
+        margin: 0 30%;
+    }
+
+    .cross{
+        display: none;
+        position: absolute;
+        right: 10%;
+        z-index: 2;
+        margin-top: 11%;
+    }
+
+    #check{
+        display: none;
+    }
+
+    #check:checked~.checkbtn{
+        display: none;
+    }
+    #check:checked~.cross{
+        display: block;
+    }
+    #check:checked~.home{
+        display: block;
+        left:0;
     }
 
     .home1{
-        float: left;
+        clear: both;
         list-style-type: none;
         font-size: 18px;
         font-weight: 700;
@@ -365,7 +469,8 @@ padding-right: 3%;
     .align#one{
         padding: 20px;
         align-items: center;
-        margin-right: 10%;
+        /* margin-right: 10%; */
+        margin: 0;
     }
 
     .webapp{
@@ -394,7 +499,8 @@ padding-right: 3%;
 
     .blogi1{
         clear: both;
-        width: 105%;
+        margin: 0;
+        width: 100%;
     }
 
     .date{
@@ -421,7 +527,7 @@ padding-right: 3%;
 
     .foot1{
         clear: both;
-        width: 105%;
+        width: 100%;
     }
 
     .p1{
@@ -431,12 +537,13 @@ padding-right: 3%;
     }
 
     .align#two{
-        margin-left: 5%;
+        /* margin-left: 5%; */
         width: 100%;
     }
 
     .p1#mob{
         clear: both;
+        margin-left: 2%;
     }
 
     .mob{
@@ -444,6 +551,14 @@ padding-right: 3%;
     }
 
     .foot{
+        box-sizing: border-box;
+        width: 100%;
+        /* margin-left: 5%; */
+    }
+
+    .copyr{
+        /* margin-left: 5%; */
+        box-sizing: border-box;
         width: 100%;
     }
 }
