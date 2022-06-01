@@ -6,10 +6,9 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 384px){
+@media screen and (max-width: 1200px){
     .head{
         padding: 1%;
-        width: 100%;
         margin: 0;
         padding: 4%;
     }
