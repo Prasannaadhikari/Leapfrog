@@ -1,0 +1,19 @@
+navbar: 25 minutes
+
+Color palettes: 15 minutes
+
+Tabs: 20 minutes
+
+Primary Button: 30 minutes
+
+Secondary Button: 15 minutes
+
+Component Table: 15 minutes
+
+Main Form: 40 minutes
+
+List Group: 20 minutes
+
+Table: 30 minutes
+
+Cards: 20 minutes each card
