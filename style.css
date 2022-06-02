@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.mainbox{
+	padding: 25px 33.5%
+}
+
+.desc1{
+	text-align: center;
+	font-size: 25px;
+	font-family: Impact;
+}
+
+.sect{
+	padding: 0 150px;
+}
+
+.element1{
+	/*width: 100%;*/
+	/*height: 30%;*/
+	background-color: lightgrey;
+	overflow: hidden;
+	padding: 15px 10%;
+	margin-bottom: 15px;
+}
+
+.topic{
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 20px;
+}
+
+.topic1{
+	font-size: 19px;
+}
+
+.lefte{
+	float: left;
+}
+
+.leftr{
+	float: right;
+}
+
+button{
+	padding: 5px 15px;
+	color: white;
+}
