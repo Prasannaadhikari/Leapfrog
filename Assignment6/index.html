@@ -30,6 +30,17 @@
             </div>
         </nav>
 
+        <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div> 
+            </label>
+        
+            <label for="check" class="cross">
+                <img src="./img/x.png">
+            </label>
+            
         <div class="navv">
             <div class="logo"><img src="./img/Logo.png"></div>
             <nav class="nav2">
@@ -45,7 +56,7 @@
     </div>
 
         <div class="head__image">
-            <img class="mob" src="./img/mobile.png">
+            <img class="mob imgw1" src="./img/mobile.png">
 
             <div class="left__section">
             <div class="rect"></div>
@@ -59,12 +70,12 @@
         </div>
     </header>
 
-    <section class="sect">
+    <section class="sect" id="zero">
         <div class="aap">ABOUT OUR APP</div>
         <div class="aap__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</div>
         <div class="boxx">
             <div class="imgl">
-            <img src="./img/android.png">
+            <img class="imgw" src="./img/android.png">
             </div>
 
             <div class="imgr">
@@ -91,7 +102,7 @@
 
     <section class="sect">
         <div class="imgr">
-            <img src="./img/desgin.png">
+            <img class="imgw" src="./img/desgin.png">
         </div>
 
         <div class="imgl" id="one">
@@ -102,7 +113,7 @@
         </div>
     </section>
 
-    <section class="sect" id="one">
+    <section class="sect clearfix" id="one">
         <img class="video" src="./img/Video.png">
         <div>
         <div class="aap wcolor">HOW TO USE THE APP PERFECTLY</div>
@@ -110,7 +121,8 @@
         </div>
     </section>
 
-    <section class="sect">
+    <section class="sect clearfix paddingtop">
+        <!-- <img class="video" src="./img/Video.png"> -->
         <div class="aap">OUR RELATIVE TEAM</div>
         <div class="textt" id="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</div>
         <article>
@@ -145,25 +157,25 @@
         <div class="textt wcolor" id="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</div>
         <div class="rel">
             <div class="review" id="one">
-                <img src="./img/review.png">
+                <img class="review1" src="./img/review.png">
             </div>
 
             <div class="review" id="two">
-                <img src="./img/review.png">
+                <img class="review1" src="./img/review.png">
             </div>
 
             <div class="review" id="three">
-                <img src="./img/review.png">
+                <img class="review1" src="./img/review.png">
             </div>
         </div>
         <div><img class="bottom" src="./img/Slider.png"></div>
     </section>
 
 
-    <section class="sect">
+    <section class="sect" id="sect">
         <div class="aap">OUR RECENT BLOG</div>
         <div class="textt" id="one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim. Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat.</div>
-        <article>
+        <article class="clearfix">
             <div class="card" id="blog">
                 <img class="blog__image" src="./img/Image1.png">
                 <div class="name" id="one">The Snap Pixel: How It Works and How to Install </div>
@@ -186,6 +198,50 @@
             </div>
         </article>
     </section>
+
+    <footer class="foot clearfix">
+        <div class="address">
+            <img class="imgl padde" src="./img/Email.png">
+            <img class="padde" src="./img/Line2.png">
+            <img class="imgr paddi" src="./img/Call1.png">
+        </div>
+
+        <div class="clearfix">
+        <div class="foot__left">
+            <div class="foot__logo"> LOGO</div>
+            <div class="foot__desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.</div>
+            <img class="social padding" src="./img/social.png">
+        </div>
+
+        <div class="foot__left">
+            <div class="foot__logo"> QUICK LINK</div>
+            <div class="foot__desc"> About</div>
+            <div class="foot__desc"> Features</div>
+            <div class="foot__desc"> Screenshot</div>
+            <div class="foot__desc"> Blog</div>
+        </div>
+
+        <div class="foot__right">
+            <div class="foot__logo">NEWSLETTER</div>
+            <div class="foot__desc">Subscribe our newsletter to get our latest update & news</div>
+            <div>
+                <input class="emailbox" type="email" placeholder="  Your email address">
+                <div>
+                    <div class="play"><img src="./img/play.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="footc clear">
+        <img class="imgl" id="mobi" src="./img/copyright.png">
+        <div class="foot__desc">Copyright 2021 .Ojjomedia. All Right Reserved.</div>
+        </div>
+    </div>
+
+    </footer>
 
 </body>
 </html>
