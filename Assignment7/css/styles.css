@@ -658,7 +658,8 @@ button:hover{
 @media screen and (max-width: 1200px) {
 
     .image111{
-        width: 50%;
+        width: 42%;
+        margin: 0;
     }
 
     .foot{
@@ -704,6 +705,50 @@ button:hover{
 
     .virtual{
         width: 40%;
+    }
+
+    .cardflex{
+        padding: 0 75px;
+    }
+
+    .photo1, .photo2{
+        width: auto;
+    }
+    
+    .photo2{
+        padding: 10px 15%;
+    }
+
+    .log{
+        top:-5%;
+    }
+
+    .mid1{
+        position: absolute;
+        top: 50vh;
+        left: 35%;
+        color: white;
+        font-size: 30px;
+    }
+
+    .mid2{
+        position: absolute;
+        top: 163vh;
+        right: 30%;
+        color: white;
+        font-size: 30px;
+    }
+
+    .topic{
+        padding-top: 90px;
+    }
+
+    .comment{
+        padding: 50px 110px;
+    }
+
+    .topp{
+        padding: 0 150px;
     }
 }
 
@@ -754,7 +799,7 @@ button:hover{
 
     .photo1, .photo2, .imagee, .image1{
         width: 100%;
-        margin: 0;
+        margin: 0 20px;
     }
 
     .mid1, .mid2{
@@ -803,6 +848,28 @@ button:hover{
     }
 
     .cardflex{
-        margin: 20px 60px;
+        margin: 20px 30px;
+        padding: 0px 10px;
+    }
+
+    .image111{
+        width: 100%;
+    }
+
+    .para1{
+        padding: 0 20px;
+    }
+
+    .photo2{
+        padding: 0 20px;
+    }
+
+    .topp{
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .link{
+        margin-left: 7%;
     }
 }
