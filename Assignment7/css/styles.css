@@ -175,6 +175,10 @@ del{
     position: relative;
 }
 
+.relative11{
+    position: relative;
+}
+
 .group{
     position: absolute;
     right: 0;
@@ -222,7 +226,7 @@ del{
     padding: 30px 0;
 }
 
-.skill{
+.skillll{
     text-align: center;
     font-size: 22px;
     padding: 0 20%;
@@ -332,7 +336,7 @@ del{
 }
 
 .flex#two{
-    padding: 5% 15%;
+    padding: 5% 7%;
 }
 
 .topp{
@@ -359,11 +363,446 @@ del{
     padding-top: 20px;
 }
 
+.width{
+    box-sizing: border-box;
+    width: 80%;
+    padding-right: 40px;
+}
+
+.rel{
+    position: relative;
+}
+
 .photo3{
     width: 100%;
     margin-left: 20px;
+    z-index: 40;
 }
 
-.width{
-    width: 80%;
+.rectangle{
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.rectangle#two{
+    position: absolute;
+    background-color: #F48C06;
+    bottom: -1%;
+    right: -6%;
+    z-index: -10;
+}
+
+.rectangle#one{
+    width: 110px;
+    height: 110px;
+    background-color: #23BDEE;
+    position: absolute;
+    top: -3%;
+    left: 1%;
+    z-index: -10;
+}
+
+.circle{
+    position: absolute;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #F48C06;
+}
+
+.circle#one{
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+.circle#two{
+    width: 30px;
+    top: 60%;
+    right: 0;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.flex#three{
+    padding: 80px 60px;
+}
+
+.imagee{
+    width: 66%;
+}
+
+
+.comment{
+    padding: 50px 5px;
+}
+
+.icon{
+    width: 13%;
+    height: 100%;
+}
+
+.comment__one{
+    padding: 10px 20px;
+
+}
+
+.image1{
+    height: 50%;
+    width: 50%;
+}
+
+.midd{
+    padding: 16% 8%;
+}
+
+h1{
+    font-size: 45px;
+    padding: 20px 0px;
+}
+
+
+.left__padding{
+    margin: 0;
+    padding: 0;
+    padding-left: 60px;
+}
+
+.midd#one{
+    padding-top: 8%;
+}
+
+.smf{
+    margin: 0 44%;
+    color: #F48C06;
+    border: 1px solid #F48C06;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.image11{
+    padding-top: 4%;
+    width: 100%;
+    height: 60%;
+}
+
+.smf#one{
+    margin: 15px 0;
+}
+
+.hr{
+    width: 50px;
+    height: 0;
+    border: 0.1px solid #525596;
+    margin-top: 9px;
+}
+
+.t1{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+
+    color: #525596;
+    margin-left: 20px;
+}
+
+.flexi{
+    display: flex;
+}
+
+.image111{
+    height: 600px;
+    margin-right: 300px;
+}
+
+.carddd{
+    /* width: 300px;
+    height: 300px; */
+    /* border: 1px solid rgb(240, 237, 237); */
+    margin: 1% 10%;
+    margin-right: 4%;
+}
+
+h2{
+    margin: 20px 0;
+    color: #252641;
+}
+
+.readmore{
+    margin: 20px 0;
+}
+
+.top1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    /* line-height: 180%; */
+    color: #252641;
+    padding: 0px 10px;
+}
+
+.comm1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 10px;
+    letter-spacing: 0.02em;
+    color: #696984;
+}
+
+.cardflex{
+    margin-bottom: 30px;
+}
+
+.news__button{
+    background: #F4C467;
+    border-radius: 80px;
+    padding: 5px 20px;
+    border: 0;
+}
+
+.flex#four{
+    box-sizing: border-box;
+}
+
+.foot{
+    background-color: #383842;
+    width: 100%;
+    padding: 5% 40%;
+}
+
+/* #right{
+    position: absolute;
+    left: 30%; */
+
+.skill{
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-top: -6%;
+    font-size: 40px;
+}
+
+.line{
+    border: 1px solid #626381;
+    /* transform: rotate(90deg); */
+    height: 110px;
+    margin-left: 100px;
+    width: 0px;
+}
+
+.virtual{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    margin-left: 40px;
+    color: white;
+    width: 10%;
+}
+
+.emailbox{
+    padding: 10px;
+    border-radius: 30px;
+    width: 300px;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.subscribe{
+    background-color: #525596;
+    color: white;
+    width: auto;
+    border: none;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.padding{
+    padding: 20px 0;
+}
+
+.color{
+    color: rgb(232, 232, 232);
+    margin-right: 30px;
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.copyright{
+    color: rgb(232, 232, 232);
+    font-size: 22px;
+    margin: 20px 50px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    background-color: #696984;
+}
+
+.flexi2{
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .image111{
+        width: 50%;
+    }
+
+    .foot{
+        width: auto;
+        padding: 20%;
+    }
+
+    .flexi2{
+        display: block;
+    }
+
+    .relative11{
+        position: block;
+        margin-top: -50%;
+    }
+
+    .btn#two{
+        margin: 10px;
+    }
+
+    .play{
+        margin: 0;
+        padding: 0;
+        width: 15%;
+    }
+
+    .branduser{
+        clear: both;
+    }
+
+    .hiw{
+        padding: 12vh 0;
+    }
+
+    .flex#three{
+        position: block;
+    }
+
+    .imagee{
+        width: 100%;
+        height: 100%;
+    }
+
+    .virtual{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .h1{
+        margin-right: 0;
+        width: auto;
+    }
+
+    .desc{
+        width: auto;
+    }
+
+    .lovely__image{
+        margin: 0;
+        padding: 0;
+        float: none;
+        width: auto;
+        margin-top: 150px;
+    }
+
+    /* #width1{
+        width: 50%;
+    } */
+
+    .flex{
+        display: block;
+    }
+
+    .log{
+        top: -8%;
+    }
+
+    .card{
+        margin: 20px 10px;
+    }
+
+    .flex1{
+        display: block;
+    }
+
+    .photo__card{
+        /* width: 500%; */
+        /* position: block; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .photo1, .photo2, .imagee, .image1{
+        width: 100%;
+        margin: 0;
+    }
+
+    .mid1, .mid2{
+        font-size: 15px;
+    }
+
+    .mid2{
+        top: 100vh;
+        left: 110px;
+    }
+
+    .width{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .photo3{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .rectangle#one{
+        margin-top: 40px;
+    }
+
+    .rectangle#two{
+        margin-right: -7%;
+    }
+
+    .flex#three{
+        padding: 0;
+        margin: 30px 30px;
+    }
+
+    .comment{
+        margin: 0;
+        padding: 10px;
+    }
+
+    .icon{
+        margin-top: 15px;
+    }
+
+    .card1png{
+        width: 80%;
+    }
+
+    .cardflex{
+        margin: 20px 60px;
+    }
 }
