@@ -639,16 +639,15 @@ header{
             align-items: center;
     }
 
-    .nav2 ul li{
-        display: block;
-    }
-
     .li__item{
-        margin-right: 250px;
+        margin-right: 0px;
+        float: none;
+        width: 150px;
     }
 
     .li__item#one{
-        margin-right: 250px;
+        margin-right: 20px;
+        margin-top: 80px;
     }
 
     .li__item#logo {
@@ -657,25 +656,30 @@ header{
 
     .li__item#last{
         margin-left: 10px;
-        margin-right: 250px;
+        /* margin-right: 250px; */
     }
 
     .li__item#last1{
         margin-left: 10px;
-        margin-right: 250px;
+        /* margin-right: 20px; */
+        float: none;
+
     }
 
+    .nav2{
+        margin-top: 20px;
+    }
     .logo{
-        margin: 10px -10px;
+        margin: -160px -10px;
     }
 
     .mob{
-        max-width: 100%;
-        margin-left: 10%;
+        /* max-width: 100%; */
+        margin-left: 20%;
         clear: both;
         float: none;
         width: 100%;
-        margin-top: 120%;
+        margin-top: 80%;
         margin-bottom: 40%;
     }
 
@@ -689,9 +693,9 @@ header{
         margin: 0;
         padding: 0;
         width: 80%;
-        height: 450px;
-        margin-top: -230%;
-        margin-left: 10%;
+        height: 440px;
+        margin-top: -220%;
+        margin-left: -11%;
     }
 
     header{
@@ -699,16 +703,21 @@ header{
         max-width: 100%;
     }
 
+    .head__image{
+        height: 1380px;
+        overflow: hidden;
+    }
+
     .pamplet{
-        width: 70%;
+        width: 90%;
         height: auto;
-        margin-top: 15%;
-        margin-left: -30px;
+        /* margin-top: 15%;
+        margin-left: -30px; */
     }
 
     .topic{
-        font-size: 40px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 30px;
     }
     .desc{
         margin-top: 25%;
@@ -717,7 +726,11 @@ header{
     }
 
     .sect#zero{
-        margin-top: 130%;
+        padding:80px 100px;
+    }
+
+    .aap{
+        padding-bottom: 15px;
     }
 
     .imgl{
@@ -769,7 +782,7 @@ header{
 
     .card#margin{
         float: left;
-        width: 40%;
+        width: 43%;
         margin-bottom: 5%;
         margin-right: 5%;
     }
@@ -795,6 +808,10 @@ header{
         width: 80%;
     }
 
+    .card{
+        width: auto;
+    }
+
     .box1{
         width: 115%;
     }
@@ -816,6 +833,7 @@ header{
 
     .review#two{
         width: 80%;
+        z-index: 0;
     }
 
     .review#three{
@@ -840,7 +858,10 @@ header{
     }
 
     .address{
-        display: none;
+        display: block;
+        width: 500px;
+        margin-left: 20%;
+        margin-top: -180px;
     }
 
     .foot__left{
@@ -870,16 +891,24 @@ header{
     }
 
     .play{
-        margin-top: -16%;
-        right: 5%;
+        margin-top: -12%;
+        right: 6%;
     }
 
     .footc{
-        padding: 2% 4%;
+        padding: 2% 10%;
     }
 
     .imgl#mobi{
         float: left;
+    }
+
+    .imgr.paddi{
+        margin-left: 20px;
+    }
+
+    .footpadd{
+        padding-top: 20px;
     }
 
 }
