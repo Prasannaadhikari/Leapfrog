@@ -916,10 +916,11 @@ header{
 @media screen and (max-width: 570px) {
     .nav{
         clear: both;
+        padding: 35px 50px;
     }
     .nav__left__left{
         clear: both;
-        width: 100%;
+        width: 163%;
         margin-left: 10px;
         padding-bottom: 20px;
     }
@@ -930,7 +931,7 @@ header{
             align-items: center;
     }
 
-    .nav2 ul li{
+    .li__item{
         display: none;
     }
 
@@ -950,8 +951,8 @@ header{
         margin: 0;
         padding: 0;
         display: block;
-        top: 100px;
-        margin-right: 50px;
+        margin-top: 85px;
+        margin-right: 40px;
     }
 
     .cross{
@@ -960,7 +961,7 @@ header{
         right: 10%;
         /* bottom: 0px; */
         z-index: 2;
-        margin-top: 25%;
+        margin-top: 40%;
     }
 
     .nav2{
@@ -977,18 +978,23 @@ header{
     #check:checked~.cross{
         display: block;
     }
-    #check:checked~.nav2{
+    #check:checked~.li__item{
         display: block;
         left:0;
     }
 
+    .head__image{
+        height: 1150px;
+    }
+
     .mob{
-        max-width: 100%;
+        /* max-width: 100%; */
         margin-left: 10%;
         clear: both;
         float: none;
         width: 100%;
-        margin-top: 120%;
+        margin-top: 580px;
+        margin-bottom: 0;
     }
 
     .left__section{
@@ -1000,11 +1006,11 @@ header{
         float: none;
         margin: 0;
         padding: 0;
-        width: 80%;
-        height: 450px;
-        margin-top: -190%;
-        margin-left: 10%;
-    }
+        width: 85%;
+        height: 400px;
+        margin-top: -315%;
+        margin-left: -34%;
+        }
 
     header{
         height: auto;
@@ -1012,19 +1018,30 @@ header{
     }
 
     .pamplet{
-        width: 70%;
-        height: auto;
-        margin-top: 20%;
-        margin-left: -30px;
+       width: 90%;
+    height: auto;
+    margin-top: -15%;
+    margin-left: 19px;
+    }
+
+    .imgw1{
+        box-sizing: border-box;
+        width: 120%;
+        padding: 0% 5%;
     }
 
     .topic{
         font-size: 20px;
-        line-height: 35px;
+        line-height: 20px;
+    }
+
+    .desc{
+        margin-top: 100px;
     }
 
     .sect#zero{
-        margin-top: 105%;
+        /* margin-top: 105%; */
+        padding: 30px 40px;
     }
 
     .imgl{
@@ -1043,7 +1060,23 @@ header{
     .imgr{
         clear: both;
         float: none;
-        margin-right: 90px;
+        margin-right: 50px;
+    }
+
+    .sect{
+        padding: 4% 40px;
+    }
+
+    .card#margin{
+        margin-right: 0;
+    }
+
+    .social{
+        padding: 10px 38px;
+    }
+
+    .aap{
+        padding: 30px 0;
     }
 
     .imgl#one{
@@ -1114,21 +1147,27 @@ header{
     }
 
     .review#one{
-        left: -5px;
-        width: 80%;
+        left: -35px;
+        width: 90%;
+        height: 200px;
+        top: 0;
     }
 
     .review#two{
-        width: 80%;
+        width: 90%;
+        top: 0;
+        height: 200px;
     }
 
     .review#three{
-        right: 60px;
-        width: 80%;
+        right: 10px;
+        width: 90%;
+        top: 0;
+        height: 200px;
     }
 
     .bottom{
-        left: 35%;
+        left: 30%;
     }
 
     .imgw{
@@ -1137,14 +1176,12 @@ header{
         padding: 0% 10%;
     }
 
-    .imgw1{
-        box-sizing: border-box;
-        width: 80%;
-        padding: 0% 5%;
-    }
 
     .address{
-        display: none;
+        display: block;
+        width: 421px;
+        margin-left: 0%;
+        margin-top: -76px;
     }
 
     .foot__left{
@@ -1174,18 +1211,22 @@ header{
     }
 
     .play{
-        margin-top: -16%;
-        right: 5%;
+        margin-top: -21%;
+        right: 4%;
     }
 
     .footc{
-        padding: 2% 4%;
+        padding: 2% 1%;
     }
 
     .imgl#mobi{
         float: left;
     }
 
+    .padde, .imgr.paddi{
+        padding-left: 5px;
+        margin-left: 0;
+    }
 }
 
 
