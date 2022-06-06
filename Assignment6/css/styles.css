@@ -380,6 +380,17 @@ header{
     text-transform: uppercase;
 }
 
+.icon__tag{
+    background-color: #232233;
+    width: auto;
+    padding: 3px;
+    margin: 0 13px;
+}
+
+.icon__tag:hover{
+    background-color: #5956E9;
+}
+
 .desig{
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -391,7 +402,7 @@ header{
 }
 
 .social{
-    padding: 10px 35px;
+    padding: 10px 50px;
 }
 
 .rel{
