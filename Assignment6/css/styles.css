@@ -247,6 +247,21 @@ header{
     margin-right: 100px;
 }
 
+.imgll{
+    float: left;
+}
+
+.imgrr{
+    float: left;
+}
+
+.information{
+    float: right;
+    padding: 35px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 .box1{
     /* position: relative; */
     /* width: auto; */
@@ -500,6 +515,7 @@ header{
     margin-top: -300px;
     z-index: 10;
     width: 87%;
+    padding: 65px 0;
 }
 
 .video{
@@ -1146,6 +1162,10 @@ header{
         height: 500px;
     }
 
+    .sect#sect{
+        padding-bottom: 40%;
+    }
+
     .review#one{
         left: -35px;
         width: 90%;
@@ -1179,9 +1199,12 @@ header{
 
     .address{
         display: block;
-        width: 421px;
-        margin-left: 0%;
-        margin-top: -76px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -132px;
+        overflow: hidden;
+        height: auto;
+        width: auto;
     }
 
     .foot__left{
@@ -1223,9 +1246,28 @@ header{
         float: left;
     }
 
+    .padde{
+        display: none;
+    }
     .padde, .imgr.paddi{
         padding-left: 5px;
         margin-left: 0;
+    }
+
+    .information{
+        font-size: 25px;
+        padding: 35px 0;
+    }
+
+    .imgll{
+        width: auto;
+        height: auto;
+    }
+
+    .imgrr{
+        padding: 20px;
+        width: auto;
+        height: auto;
     }
 }
 

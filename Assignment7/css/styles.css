@@ -8,8 +8,9 @@ header{
     background-color: #FFF2E1;
     height: calc(100%/1.05);
     width: 100%;
-    border-bottom-left-radius: calc(100%/2);
-    border-bottom-right-radius: calc(100%/2);
+    /* border-bottom-left-radius: calc(100%/2);
+    border-bottom-right-radius: calc(100%/2); */
+    clip-path: ellipse(85% 60% at 50% 40%);
 }
 
 .fcontainer{
@@ -48,8 +49,10 @@ ul li a{
     font-size: 22px;
     line-height: 33px;
     letter-spacing: 0.02em;
-    color: #252641
+    color: #787ab9;
 }
+
+.pagelink:h{}
 
 /* .first{
     margin-left: 10vw;
@@ -150,7 +153,7 @@ del{
 }
 
 .hiw{
-    padding: 9vh 0;
+    padding: 5% 0;
     font-size: 20px;
     margin-left: -30px;
 }
@@ -246,6 +249,7 @@ del{
     border: 2px solid rgb(233, 231, 231);
     padding-bottom: 30px;
     margin-right: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card#one{
@@ -307,7 +311,7 @@ del{
 
 .mid1{
     position: absolute;
-    top: 16vh;
+    top: 30vh;
     left: 21%;
     color: white;
     font-size: 30px;
@@ -315,7 +319,7 @@ del{
 
 .mid2{
     position: absolute;
-    top: 16vh;
+    top: 30vh;
     right: 21%;
     color: white;
     font-size: 30px;
@@ -414,12 +418,15 @@ del{
     top: 0;
     left: 0;
     z-index: -10;
+    width: 60px;
+    height: 60px;
 }
 
 .circle#two{
     width: 30px;
     top: 60%;
     right: 0;
+    height: 30px;
     
 }
 
@@ -576,8 +583,9 @@ h2{
 
 .foot{
     background-color: #383842;
-    width: 100%;
-    padding: 5% 40%;
+    /* width: 100%; */
+    padding: 5% 20%;
+    padding-left: 35%;
 }
 
 /* #right{
@@ -609,7 +617,7 @@ h2{
     letter-spacing: 0.04em;
     margin-left: 40px;
     color: white;
-    width: 10%;
+    width: 25%;
 }
 
 .emailbox{
