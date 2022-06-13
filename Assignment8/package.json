@@ -2,11 +2,11 @@
   "name": "assignment8",
   "version": "1.0.0",
   "description": "",
-  "main": "bounce.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node bounce.js",
-    "dev": "nodemon bounce.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
