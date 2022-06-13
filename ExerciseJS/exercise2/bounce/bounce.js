@@ -1,5 +1,7 @@
+// var bottom=Math.floor(Math.random() * 651);
+// var left=Math.floor(Math.random() * 1151);
 var bottom=0;
-var left=0;
+var left=1000;
 var bottomToTop=true;
 var leftToRight=true;
 
