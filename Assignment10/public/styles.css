@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    margin-left: 35%;
+}
+.start_menu{
+    display: block;
+    position: relative;
+    background-color: rgb(237, 232, 232);
+    width: 500px;
+    height: 750px;
+}
+
+.end_menu{
+    position: absolute;
+    display: none;
+    width: 500px;
+    height: 750px;
+    background-color: rgb(237, 232, 232);
+}
+
+.topic{
+    font-size: 40px;
+    padding-top: 30%;
+    padding-left: 20%;
+    color: rebeccapurple;
+}
+
+.start_button{
+    padding: 20px 30px;
+    background-color: rgb(98, 205, 104);
+    margin-left: 40%;
+    margin-top: 15%;
+    border: none;
+    border-radius: 10px;
+}
+
+.road{
+    width: 500px;
+    height: 750px;
+    position: relative;
+    background-image: url('./img/road.png');
+    background-repeat: repeat-y;
+    animation: animatedBackground 5s linear infinite;
+    display: none;
+}
+
+.score{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    z-index: 10px;
+}
+
+.mycar{
+    position: absolute;
+    top: 600px;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/my_car.png);
+    background-size: cover;
+}
+
+.othercar{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url(./img/other_car.png);
+    background-size: cover;
+} 
+
+@keyframes animatedBackground{
+    0%{
+        background-position: 0 0;
+    }
+
+    100%{
+        background-position: 0 680px;
+    }
+}
