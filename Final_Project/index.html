@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/styles.css">
+    <script src="./script/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/828a3930be.js" crossorigin="anonymous"></script>
+    <title>Image Editor</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="editor">
+            <div class="filter">
+                <label for="brighten">Brightness</label>
+                <input type="range" min="0" max="200" value="100" step="10" id="brighten">
+            </div>
+
+            <div class="filter">
+                <label for="blur">Blur</label>
+                <input type="range" min="0" max="5" value="0" step="0.1" id="blur">
+            </div>
+
+            <div class="filter">
+                <label for="contrast">Contrast</label>
+                <input type="range" min="0" max="200" value="100" id="contrast">
+            </div>
+
+            <div class="filter">
+                <label for="hue-rotate">Hue-Rotate</label>
+                <input type="range" min="0" max="360" value="0" id="hue-rotate">
+            </div>
+
+            <div class="filter">
+                <label for="saturate">Saturate</label>
+                <input type="range" min="0" max="200" value="100" id="saturate">
+            </div>
+
+            <div class="filter">
+                <label for="cfilter">Color Filter</label>
+                <input type="range" min="0" max="200" value="100" id="cfilter">
+            </div>
+
+            <div class="flip-buttons">
+                <div class="flip-option">
+                <input type="radio" name="flip" id="no-flip" checked>
+                <label for="no-flip">No Flip</label>
+                </div>
+
+                <div class="flip-option">
+                    <input type="radio" name="flip" id="flip-x">
+                    <label for="flip-x">Flip Horizontal</label>
+                </div>
+                
+                <div class="flip-option">
+                    <input type="radio" name="flip" id="flip-y">
+                    <label for="flip-y">Flip Vertical</label>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="result">
+            <figure class="image-container">
+                <img id="chosen-image">
+                <canvas id="canvas-image" width="600px" height="500px"></canvas>
+            </figure>
+            <input type="file" id="upload-button" accept="Image/*">
+            <label for="upload-button">Choose An Image</label>
+        </div>
+
+        <div class="menu-container">
+            <ul>
+                <li><i class="fas fa-undo"></i>
+                    <span class="tool-info">Undo</span>
+                </li>
+
+                <li><i class="fas fa-redo"></i>
+                    <span class="tool-info">Redo</span>
+                </li>
+
+                <li><i class="fas fa-trash"></i>
+                    <span class="tool-info">Delete</span>
+                </li>
+
+                <li><i class="fas fa-crop-alt"></i>
+                    <span class="tool-info">Crop</span>
+                </li>
+
+                <li><i class="fas fa-expand-arrows-alt"></i>
+                    <span class="tool-info">Resize</span>
+                </li>
+
+                <li><i class="fas fa-shapes"></i>
+                    <span class="tool-info">Shapes</span>                   
+                </li>
+
+                <li><i class="fas fa-font"></i>
+                    <span class="tool-info">Text</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
